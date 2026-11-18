@@ -1,0 +1,36 @@
+[package]
+name = "lab-report"
+version = "0.1.0-alpha.1"
+edition = "2021"
+authors = ["Timothy Ronald <timothy@itera.ac.id>"]
+description = "Fast native CLI toolchain for ITERA lab reports"
+license = "AGPL-3.0"
+
+[lints]
+workspace = true
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+thiserror = "2.0"
+walkdir = "2.5"
+zip = { version = "2.2", default-features = false, features = ["deflate"] }
+regex = "1.11"
+quick-xml = "0.37"
+serde_json = "1.0"
+
+
+
+
+[[bin]]
+name = "lab-report"
+path = "src/main.rs"
+
+[lib]
+name = "lab_report"
+path = "src/lib.rs"
+
+[dev-dependencies]
+tempfile = "3.17"
+

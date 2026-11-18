@@ -1,0 +1,37 @@
+# ==============================================================================
+# Packet Tracer + MCP Configuration Template
+# ==============================================================================
+#
+# Salin file ini ke ~/.config/pt-mcp/config.toml dan edit sesuai kebutuhan.
+#
+# Lokasi konfigurasi:
+#   Linux/macOS : ~/.config/pt-mcp/config.toml
+#   Windows     : %LOCALAPPDATA%\pt-mcp\config.toml
+#
+# ==============================================================================
+
+[packet_tracer]
+# Path ke direktori instalasi Packet Tracer.
+# Kosongkan (path = "") untuk auto-detect otomatis.
+# Contoh:
+#   path = "/opt/Cisco Packet Tracer"            # Linux custom path
+#   path = "/Applications/Cisco Packet Tracer.app/Contents"   # macOS
+#   path = "C:\\Program Files\\Cisco Packet Tracer"           # Windows
+path = ""
+
+[extension]
+# Otomatis install extension MCP-Control-Center.pts saat pertama kali dijalankan.
+auto_install = true
+
+# URL unduhan file .pts (bisa diganti ke mirror lokal jika dibutuhkan)
+source_url = "https://github.com/Mats2208/MCP-Packet-Tracer/releases/latest/download/MCP-Control-Center.pts"
+
+[mcp_server]
+# Host dan port MCP server (streamable HTTP)
+host = "127.0.0.1"
+port = 39000
+
+[bridge]
+# Port HTTP bridge Packet Tracer (dibuka oleh PT webview extension)
+host = "127.0.0.1"
+port = 54321

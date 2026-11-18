@@ -1,0 +1,19 @@
+# =============================================================================
+# Konfigurasi Profil Mahasiswa (Template)
+# ==============================================================================
+# Salin file ini ke setiap folder course sebagai profile.toml, lalu edit
+# nilai sesuai dengan data peserta praktikum yang sebenarnya.
+# Contoh: cp profile.toml.example computer-networks/profile.toml
+# ==============================================================================
+
+language = "en"
+
+[student]
+name = "Jane Smith"
+nim = "xxxxxxxxx"
+class = "RX"
+study_program = "Teknik Informatika"
+institution = "Universitas"
+
+[naming]
+pattern = "{name}_{nim}_Tugas{module}"

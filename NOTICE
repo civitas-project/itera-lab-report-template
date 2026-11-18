@@ -1,0 +1,16 @@
+NOTICE
+======
+
+ITERA Lab Report Template & Automation Suite
+Copyright (c) 2026 ITERA Lab Report Template contributors
+
+This project is licensed under the GNU Affero General Public License v3.0.
+See LICENSE for the full license text.
+
+Third-party components are governed by their own licenses:
+- Rust standard library and Cargo dependencies (see Cargo.lock for exact versions).
+- Typst document compiler.
+- Python standard library used by the standalone build scripts.
+- Font files bundled in course directories remain under their respective licenses.
+
+Contact: timothy@itera.ac.id

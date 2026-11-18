@@ -1,0 +1,11 @@
+language = "en"
+
+[student]
+name = "Dzulkifli Anwar"
+nim = "125140075"
+class = "RB"
+study_program = "Teknik Informatika"
+institution = "Institut Teknologi Sumatera"
+
+[naming]
+pattern = "{name}_{nim}_Tugas{module}"

@@ -1,0 +1,32 @@
+@startuml
+' Publication-grade Vector Theme for ITERA Lab Reports
+skinparam backgroundColor white
+skinparam defaultFontName Garamond
+skinparam defaultFontSize 11
+skinparam roundCorner 4
+skinparam shadowing false
+skinparam dpi 300
+
+skinparam ArrowColor #4F81BD
+skinparam ArrowThickness 1.2
+skinparam node {
+  BackgroundColor #DBE5F1
+  BorderColor #4F81BD
+  BorderThickness 1.2
+}
+skinparam component {
+  BackgroundColor #FFFFFF
+  BorderColor #4F81BD
+  BorderThickness 1.2
+}
+
+title Topologi Multi-Area OSPF
+
+node "Router-1\n192.168.1.1" as R1
+node "Switch-1" as SW1
+node "PC-1\n192.168.1.10" as PC1
+
+R1 <--> SW1 : Fiber Optic
+SW1 <--> PC1 : Copper Straight
+
+@enduml

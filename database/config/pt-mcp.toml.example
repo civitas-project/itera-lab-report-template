@@ -1,0 +1,20 @@
+# ~/.config/pt-mcp/config.toml
+# Copy ke ~/.config/pt-mcp/config.toml dan edit sesuai kebutuhan
+
+[packet_tracer]
+# Path kustom instalasi Packet Tracer (opsional)
+# Kosongkan untuk auto-detect
+# Contoh:
+# path = "/opt/Cisco Packet Tracer"          # Linux
+# path = "/Applications/Cisco Packet Tracer.app/Contents"  # macOS
+# path = "C:\\Program Files\\Cisco Packet Tracer"          # Windows
+path = ""
+
+[extension]
+auto_install = true
+# URL download extension (bisa diganti ke mirror lokal)
+source_url = "https://github.com/Mats2208/MCP-Packet-Tracer/releases/latest/download/MCP-Control-Center.pts"
+
+[mcp_server]
+host = "127.0.0.1"
+port = 39000

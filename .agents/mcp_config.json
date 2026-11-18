@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "lab-report": {
+      "command": "lab-report",
+      "args": [
+        "mcp"
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+tests/diff_output/
+__pycache__/
+*.pyc
+*.pdf
+output-*.png
+
+# MCP client configs (generated per-user)
+.claude/
+.cursor/
+.vscode/
+.config/pt-mcp/
